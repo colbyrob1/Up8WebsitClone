@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+p{
+    magin: 0;
+}
+nav {
+    background-color:lightblue;
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+
+}

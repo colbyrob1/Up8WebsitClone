@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+h1 {
+    color: #6c4f70;
+    text-align: center;
+    }
+    
+h2 {
+    color: #6c4f70;
+    flex-direction: row-reverse;
+    text-align: center;
+    max-width: 1000px;
+}
+
+p {
+    margin: 0%;
+}
+
+#logo_img {
+    display: flex;
+    max-width: 100px;
+    max-height: auto;
+}
+
+nav {
+    /* background-color:rgb(252, 252, 252); */
+    font: montserrat;
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    color: #6c4f70;
+   
+}
+
+.navbox {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    color: #6c4f70;
+}
+
+#hero {
+   font: Lucida Sans Typewriter; 
+   height: 600px;
+   width: 100%;
+   margin: auto;
+   padding: 60px;    
+   display: flex;
+   justify-content: center;
+   
+   background-image: url("http://127.0.0.1:5500/UP8Photography-Replica/Assets/Bride_against_background.jpg");
+
+}
+
+h3 {
+    text-align: center;
+
+}
+
+#para1 {
+    text-align: center;
+    margin: 10px;
+    width: 100%;
+    padding: 60px;
+}
+
+.box1 {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    background-color: blue
+}
+
+.box2 {
+    height: 300px;
+    width: 200px;
+    display: flex;
+    background-color: rgb(255, 0, 170)
+}
+
+.box3 {
+    height: 400px;
+    width: 200px;
+    display: flex;
+    background-color: green
+}
+.box-container {
+    display: flex;
+}

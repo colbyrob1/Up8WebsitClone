@@ -20,21 +20,26 @@ p {
     margin: 0%;
 }
 
-#logo_img {
-    display: flex;
-    max-width: 100px;
-    max-height: auto;
+#logo-img {
+    padding: 0px;
+    margin: 0px;
 }
 
 nav {
     /* background-color:rgb(252, 252, 252); */
-    font: montserrat;
+    font: gotham;
     display: flex;
     height: 50px;
+    margin: 50px;
     justify-content: space-around;
     align-items: center;
     color: #6c4f70;
-   
+    
+
+}
+#logo_img {
+    max-width: 1000px;
+    max-height: 1000px;
 }
 
 .navbox {
@@ -46,6 +51,7 @@ nav {
 
 #hero {
    font: Lucida Sans Typewriter; 
+   background-repeat: no-repeat;
    height: 600px;
    width: 100%;
    margin: auto;
@@ -57,7 +63,8 @@ nav {
 
 }
 
-h3 {
+h4 {
+    font-family: Georgia, 'Times New Roman';
     text-align: center;
 
 }
@@ -67,6 +74,22 @@ h3 {
     margin: 10px;
     width: 100%;
     padding: 60px;
+}
+
+#hero2 {
+    font: Lucida Sans Typewriter; 
+    background-repeat: no-repeat;
+    color:white;
+    height: 600px;
+    width: 100%;
+    margin: auto;
+    padding: 60px;    
+    display: flex;
+    justify-content: center;
+    
+    background-image: url("http://127.0.0.1:5500/UP8Photography-Replica/Assets/Newborn_and_parent.jpg");
+h3 {
+    font-size: 50px;
 }
 
 .box1 {

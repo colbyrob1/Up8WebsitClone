@@ -1,0 +1,50 @@
+
+html {
+text-align: center;
+padding-top: 200px;
+animation: alternate-reverse;
+
+
+}
+
+
+body {
+    background-image: url("http://127.0.0.1:5500/Drumkit/Assets//Users/colbyrobinson/Documents/VSCode-demo/Drumkit/Assets/COL_9404.JPG");
+    background: rgb(254,255,255);
+    background: radial-gradient(circle, rgba(254,255,255,1) 0%, rgba(182,13,70,1) 44%, rgba(64,22,112,1) 100%, rgba(251,252,253,1) 100%);
+    background-blend-mode: screen;
+
+
+}
+    
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+  
+.key{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    padding: 0px 20px;
+    margin: 0 20px;
+}
+h1{
+    width: 100px;
+    font-size: xx-large;
+    font-family: fantasy;
+}
+

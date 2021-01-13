@@ -1,50 +1,70 @@
 
-html {
-text-align: center;
-padding-top: 200px;
-animation: alternate-reverse;
-
-
-}
-
-
-body {
-    background-image: url("http://127.0.0.1:5500/Drumkit/Assets//Users/colbyrobinson/Documents/VSCode-demo/Drumkit/Assets/COL_9404.JPG");
-    background: rgb(254,255,255);
-    background: radial-gradient(circle, rgba(254,255,255,1) 0%, rgba(182,13,70,1) 44%, rgba(64,22,112,1) 100%, rgba(251,252,253,1) 100%);
-    background-blend-mode: screen;
-
-
-}
-    
-
-
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
   
-.boxes{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
+  body,html {
+    font-size: 10px;
+    text-align: center;
+    padding-top: 50px;
+    animation: alternate-reverse;  
+    background-image: url("Assets/img/COL_9404.JPG"); 
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    size: 300px;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+  }
   
-.key{
-    display: flex;
-    flex-direction: column;
+  h1{
+    font-size: 50px;
+    color: aliceblue;
+    font-family: arial;
+    margin: 120px;
+    padding-top: 150px;
+    padding-left: 250px;
+    text-align: center;
     justify-content: center;
-    align-items: center;
-    border: 2px solid black;
-    padding: 0px 20px;
-    margin: 0 20px;
-}
-h1{
-    width: 100px;
-    font-size: xx-large;
-    font-family: fantasy;
 }
 
+  .keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .key {
+    border: .4rem solid white;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+  }
+  
+  .playing {
+    transform: scale(1.1);
+    border-color: #00ffee;
+    box-shadow: 0 0 1rem #00ffee;
+  }
+  
+  kbd {
+    display: block;
+    font-size: 5rem;
+  }
+  
+  .sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #00ffee;
+  }
+  
